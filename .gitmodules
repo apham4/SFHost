@@ -1,0 +1,3 @@
+[submodule "Plugins/SettingsFramework"]
+	path = Plugins/SettingsFramework
+	url = https://github.com/apham4/SettingsFramework.git
