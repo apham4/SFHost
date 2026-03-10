@@ -7,7 +7,11 @@
 		{
 			"Name": "SFHost",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"CommonUI",
+				"Engine"
+			]
 		}
 	],
 	"Plugins": [
@@ -17,6 +21,10 @@
 			"TargetAllowList": [
 				"Editor"
 			]
+		},
+		{
+			"Name": "SettingsFramework",
+			"Enabled": true
 		}
 	]
 }
